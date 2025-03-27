@@ -28,3 +28,27 @@ body {
 .clip-hexagon {
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
+
+/* Works for Chrome, Edge, and Safari */
+::-webkit-scrollbar {
+  width: 8px; /* Adjust width as needed */
+}
+
+::-webkit-scrollbar-track {
+  background: #020617; /* Tailwind slate-950 */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #67e8f9; /* Tailwind cyan-300 */
+  border-radius: 10px;
+}
+
+/* ::-webkit-scrollbar-thumb:hover {
+  background: #22d3ee; Slightly darker cyan on hover
+} */
+
+/* For Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #67e8f9 #020617;
+}

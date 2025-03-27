@@ -15,7 +15,7 @@ export const Skillset: React.FC =() =>{
         itemHeight : 80,
     },{
         id: 3,
-        url : "/images/taulwind2.png",
+        url : "/images/tailwind2.png",
         stack_name: "Tailwind CSS",
         itemWidth : 90,
         itemHeight : 90,
@@ -70,8 +70,8 @@ export const Skillset: React.FC =() =>{
     }];
 
     return(
-        <div className="flex flex-col justify-center items-center mb-8">
-            <h2 className="text-center">Skillset</h2>
+        <div className="flex flex-col justify-center items-center mb-8 bg-slate-950">
+            <h2 className="text-center text-cyan-300 text-2xl p-3 underline decoration-cyan-300 underline-offset-2 decoration-dotted">SKILLSET</h2>
             <div className="flex flex-row flex-wrap w-[70vw] items-center justify-center">
                 {stacks_dict.map((item) =>(
                     <div className="relative group m-3 flex flex-col items-center" key={item.id}>
