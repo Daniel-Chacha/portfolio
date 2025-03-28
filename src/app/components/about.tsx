@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export const About:React.FC = () =>{
     return(
-        <div className="flex flex-row h-[100vh] justify-center items-center">
+        <div id="home" className="flex flex-row h-[100vh] justify-center items-center">
             <div className="w-[50vw]">
                 <p className="text-md text-cyan-300">Hello, I am</p>
                 <p className="text-4xl tracking-widest "> Daniel Chacha</p>
